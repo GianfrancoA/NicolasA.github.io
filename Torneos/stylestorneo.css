@@ -1,0 +1,276 @@
+body {
+    background-color:black;
+}
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: -100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    á
+}
+
+
+h1.barra {
+    color: white;
+    font-size: 45px;
+    padding-right: 180px;
+    
+}
+
+img.logitos {
+    display: flex;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+   
+}
+
+ul li {
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.lista li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.lista li a:hoaver {
+    background-color: beige;
+}
+.lista li {
+    float:left;
+}
+
+.lista li ul {
+    display: none;
+    position:absolute;
+    min-width: 140px;
+    padding: 60;
+}
+
+.lista li:hover > ul {
+    display: block;
+}
+
+.lista li ul li {
+    position: relative;
+    padding-right: -00px;
+    padding-left: -00%;
+    padding-top: -00;
+    padding-bottom: -0;
+}
+
+.lista li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+input.buscador {
+    padding: 20px;
+    padding-right: 95px;
+    border-radius: 20px 20px 20px 20px;
+    border: 0;
+    right: 50px;
+    outline: none;
+}
+/* inicio */ 
+
+ .articulo1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/imagenes/axotorneo.jpg);
+    height: 100vh;
+    color:white;
+    font-size: 130px;
+    background-position: 40%;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: -30px;
+    background-repeat: no-repeat;
+}
+
+.articulo2 h1 {
+    display: flex;
+    position: absolute;
+    margin-bottom: -10%;
+    margin-top: 5%;
+    font-size: 50px;
+    margin-left: 2%;
+    color: white;
+}
+
+.fondo2 img {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.fondo3 img {
+    display: flex;
+    position: absolute;
+    width: 16%;
+    margin-top: 14%;
+    margin-left: 60%;
+}
+
+.parrafo-1 p {
+    display: flex;
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 35.5%;
+    text-indent: 1%;
+    color: rgb(190, 177, 177);
+}
+
+.video1 iframe {
+    display: flex;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 16%;
+    width: 1200px;
+    
+}
+
+.fondo4 img {
+    display: flex;
+    position: absolute;
+    font-size: 80px;
+    margin-top: 70%;
+    margin-left: 14%;
+}
+
+.fondo5 img {
+    display: flex;
+    position: absolute;
+    width: 270px;
+    margin-top: 70%;
+    margin-left: 60%;
+    
+
+}
+
+.parrafo-2 p {
+    display: flex;
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 95%;
+    text-indent: 1%;
+    color: rgb(190, 177, 177);
+    
+}
+
+.video2 iframe {
+    display: flex;
+    position: absolute;
+    margin-top: 104%;
+    margin-left: 16%;
+    width: 1200px;
+}
+
+.fondo6 img {
+    display: flex;
+    position: absolute;
+    width: 450px;
+    margin-top: 133%;
+    margin-left: 35%;
+}
+
+.mensaje h1 {
+    display: flex;
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 166%;
+    margin-left: 33%;
+    color: white;
+}
+
+/*footer*/
+
+footer {
+    display: block;
+    background-color: red;
+    margin-top: 181%;
+    width: 20;
+    right: 20;
+    position: relative;
+}
+
+.logo-final img {
+    display: blocks;
+    width: 75px;
+    margin-top: 1.5%;
+    margin-left: 10%;
+}
+
+.derechos p {
+    display: inline-block;
+    margin-left: 8%;
+    color: white;
+}
+
+.comment p {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: -20px;
+
+}
+
+.comment span {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29.5%;
+    margin-top: -5%;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.steam1 img {
+    display: flex;
+    position: absolute;
+    width: 75px;
+    margin-top: -7.5%;
+    margin-left: 69%;
+}
+
+.steam2 p {
+    display: flex;
+    position: absolute;
+    width: 75px;
+    margin-top: -2.5%;
+    margin-left: 69.6%;
+    color: white;
+}
+
+.user1 img {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    margin-top: -8.7%;
+    margin-left: 79.8%;
+
+}
+
+.user2 p {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    margin-top: -2.5%;
+    margin-left: 83.5%;
+    color: white;
+}

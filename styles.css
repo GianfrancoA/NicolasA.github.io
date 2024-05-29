@@ -1,0 +1,399 @@
+body {
+    background-color:black;
+}
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: -100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    á
+}
+
+
+h1.barra {
+    color: white;
+    font-size: 45px;
+    padding-right: 180px;
+    
+}
+
+img.logitos {
+    display: flex;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+   
+}
+
+ul li {
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.lista li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.lista li a:hoaver {
+    background-color: beige;
+}
+.lista li {
+    float:left;
+}
+
+.lista li ul {
+    display: none;
+    position:absolute;
+    min-width: 140px;
+    padding: 60;
+}
+
+.lista li:hover > ul {
+    display: block;
+}
+
+.lista li ul li {
+    position: relative;
+    padding-right: -00px;
+    padding-left: -00%;
+    padding-top: -00;
+    padding-bottom: -0;
+}
+
+.lista li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+input.buscador {
+    padding: 20px;
+    padding-right: 95px;
+    border-radius: 20px 20px 20px 20px;
+    border: 0;
+    right: 50px;
+    outline: none;
+}
+
+/*bara de navegacion*/
+
+#articulo1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color:white;
+    font-size: 130px;
+    background-image: url(imagenes/fondo1.jpg);
+    background-position: 30%;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: -30px;
+    background-repeat: no-repeat;
+}
+
+#articulo2 h1 {
+    display: flex;
+    font-size: 70px;
+    text-align: right;
+    color: white;
+}
+.titulo2 {
+    margin-left: 60px;
+    float: left;
+    color: white;
+}
+
+.parrafo p {
+    display: block;
+    margin-left: 90px;
+    width: 526px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: rgb(190, 177, 177);
+
+}
+.fondo2 img {
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 81%;
+    margin-bottom: 60%;
+    margin-top: -25%;
+    width: 16%;
+}
+
+.fondo3 img {
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 35%;
+    margin-top: -90%;
+    margin-bottom: 55%;
+    width: 45%;
+}
+/*segundo div*/
+
+#articulo3 h1 {
+    display: flex;
+    font-size: 70px;
+    text-align: right;
+    margin-top: -50%;
+    color: white ;
+    margin-left: 60%;
+}
+
+.parrafo2 p {
+    display: block;
+    margin-left: 1140px;
+    width: 534px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: rgb(190, 177, 177);
+}
+
+.fondo4 img {
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    margin-top: -70%;
+    margin-bottom: 15%;
+    width: 35%;
+
+}
+.fondo5 img {display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-top: -70%;
+    margin-bottom: 2%;
+    width: 10%;
+}
+
+/* tercer div*/ 
+
+#articulo4 h1 {
+    display: flex;
+    font-size: 80px;
+    text-align: right;
+   margin-left: 37%;
+   margin-right: 80%;
+    color: white;
+}
+
+.parrafo3 p {
+    display: block;
+    margin-left: 6%;
+    width: 1600px;
+    text-indent: 20px;
+    font-size: 20px;
+    margin-top: -2%;
+    text-align: center;
+    color: rgb(190, 177, 177);
+}
+
+.fondo-6 img {
+    display: block;
+    width: 14%;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.fondo-6 h2 {
+    display: block;
+    width: 12px;
+    margin-top: 2%;
+    margin-left: 12%;
+    text-indent: 25px;
+    color: white;
+}
+.fondo-6 p.nombre1 {
+    display: block;
+    margin-left: -780px;
+    color: rgb(190, 177, 177);
+}
+
+.fondo-7 img {
+    display: block;
+    width: 14%;
+    margin-left: 73%;
+    margin-top: -21.7%;
+}
+
+.fondo-7 h2 {
+    display: block;
+    width: 12px;
+    margin-top: 2%;
+    margin-left: 78.5%;
+    text-indent: 14px;
+    color: white;
+}
+
+.fondo-7 p.nombre2 {
+    display: block;
+    margin-left: -780px;
+    color: rgb(190, 177, 177);
+}
+
+.fondo-8 img {
+    display: block;
+    width: 14%;
+    margin-left: 41%;
+    margin-top: -15%;
+}
+
+.fondo-8 h2 {
+    display: block;
+    width: 12px;
+    margin-top: 2%;
+    margin-left: 46.2%;
+    text-indent: 12px;
+    color: white;
+}
+
+.fondo-8 p.nombre3 {
+    display: block;
+    margin-left: -780px;
+    color: rgb(190, 177, 177);
+}
+
+/*pie de pagina*/
+
+.articulo5 h1 {
+    display: inline-block;
+    font-size: 57px;
+    margin-left: 2%;
+    text-align: right;
+    text-indent: -3%;
+    color: white;
+    text-align: left;
+    
+}
+
+.encuesta1 label {
+    display: inline-block;
+    font-size: 37px;
+    margin-left: 2%;
+    color: white;
+}
+
+.encuesta1 input {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-color: white;
+    background-color: white;
+}
+
+.tu-opinion label {
+    display: inline-block;
+    font-size: 37px;
+    margin-left: 2%;
+    color: white;
+}
+
+ textarea {
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 20px;
+    margin-left: 2%;
+    color: ;
+    background-color: white;
+    border-color: white;
+}
+
+.articulo5 button {
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+    background-color: rgb(201, 16, 16);
+    border-color: rgb(0, 0, 0);
+}
+
+.imagen-zombie img {
+    display: block;
+    width: 30%;
+    margin-left: 49%;
+    margin-top: -37%;
+}
+
+footer {
+    display: block;
+    background-color: red;
+    margin-top: 13%;
+    width: 20;
+    right: 20;
+    position: relative;
+}
+
+.logo-final img {
+    display: blocks;
+    width: 75px;
+    margin-top: 1.5%;
+    margin-left: 10%;
+}
+
+.derechos p {
+    display: inline-block;
+    margin-left: 8%;
+    color: white;
+}
+
+.comment p {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: -20px;
+
+}
+
+.comment span {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29.5%;
+    margin-top: -5%;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.steam1 img {
+    display: flex;
+    position: absolute;
+    width: 75px;
+    margin-top: -7.5%;
+    margin-left: 69%;
+}
+
+.steam2 p {
+    display: flex;
+    position: absolute;
+    width: 75px;
+    margin-top: -2.5%;
+    margin-left: 69.6%;
+    color: white;
+}
+
+.user1 img {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    margin-top: -8.7%;
+    margin-left: 79.8%;
+
+}
+
+.user2 p {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    margin-top: -2.5%;
+    margin-left: 83.5%;
+    color: white;
+}

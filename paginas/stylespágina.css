@@ -1,0 +1,204 @@
+body {
+    background-color:black ;
+}
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: -100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    á
+}
+
+
+h1.barra {
+    color: white;
+    font-size: 45px;
+    padding-right: 180px;
+    
+}
+
+img.logitos {
+    display: flex;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+   
+}
+
+ul li {
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.lista li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.lista li a:hoaver {
+    background-color: beige;
+}
+.lista li {
+    float:left;
+}
+
+.lista li ul {
+    display: none;
+    position:absolute;
+    min-width: 140px;
+    padding: 60;
+}
+
+.lista li:hover > ul {
+    display: block;
+}
+
+.lista li ul li {
+    position: relative;
+    padding-right: -00px;
+    padding-left: -00%;
+    padding-top: -00;
+    padding-bottom: -0;
+}
+
+.lista li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+input.buscador {
+    padding: 20px;
+    padding-right: 95px;
+    border-radius: 20px 20px 20px 20px;
+    border: 0;
+    right: 50px;
+    outline: none;
+}
+
+/*div*/
+
+.contenedor-1 h1 {
+    display: flex;
+    position: absolute; 
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 150px;
+    color: white;
+}
+
+.titulo2 h1 {
+    display: flex;
+    position: absolute; 
+    margin-top: 53%;
+    margin-left: 45%;
+    font-size: 90px;
+    color: white;
+}
+
+.logo1 img {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    margin-top: 25%;
+    margin-left: 33%;
+}
+
+.logo2 img {
+    display: flex;
+    position: absolute;
+    width: 55%;
+    margin-top: 65%;
+    margin-left: 22%;
+}
+
+.titulo3 h1 {
+    display: flex;
+    position: absolute; 
+    margin-top: 83%;
+    margin-left: 41%;
+    font-size: 45px;
+    color: white;
+}
+
+/*footer*/
+
+footer {
+    display: block;
+    background-color: red;
+    margin-top: 82%;
+    width: 20;
+    right: 20;
+    position: relative;
+}
+
+.logo-final img {
+    display: blocks;
+    width: 75px;
+    margin-top: 1.5%;
+    margin-left: 10%;
+}
+
+.derechos p {
+    display: inline-block;
+    margin-left: 8%;
+    color: white;
+}
+
+.comment p {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: -20px;
+
+}
+
+.comment span {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29.5%;
+    margin-top: -5%;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.steam1 img {
+    display: flex;
+    position: absolute;
+    width: 75px;
+    margin-top: -7.5%;
+    margin-left: 69%;
+}
+
+.steam2 p {
+    display: flex;
+    position: absolute;
+    width: 75px;
+    margin-top: -2.5%;
+    margin-left: 69.6%;
+    color: white;
+}
+
+.user1 img {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    margin-top: -8.7%;
+    margin-left: 79.8%;
+
+}
+
+.user2 p {
+    display: flex;
+    position: absolute;
+    width: 12%;
+    margin-top: -2.5%;
+    margin-left: 83.5%;
+    color: white;
+}
